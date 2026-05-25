@@ -1,0 +1,95 @@
+# Build artifacts
+build/
+dist/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.clang-format
+.clang-tidy
+
+# Binaries
+bin/
+emberd
+emberd.exe
+ember-wallet
+ember-wallet.exe
+
+# Dependencies
+deps/
+external/
+third_party/
+
+# Test artifacts
+tests/unit_tests
+tests/performance_tests
+*.gcda
+*.gcno
+coverage/
+
+# Blockchain data
+data/
+.ember/
+testnet/
+stagenet/
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+secrets/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+ENV/
+
+# Node (if used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+
+# Misc
+*.patch
+*.diff
+.cache/
+temp/
+tmp/
